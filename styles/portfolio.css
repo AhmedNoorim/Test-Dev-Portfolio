@@ -15,7 +15,7 @@ body {
     font-size: 20px;
     color: white;
     font-weight: 700;
-    padding: 15px 36px;
+    padding: 15px 25px;
 }
 
 .section-title {
@@ -273,7 +273,6 @@ footer {
 }
 
 #footer-column2 {
-    /* margin-left: 100px; */
     margin-right: 100px;
 }
 
@@ -315,4 +314,8 @@ textarea {
 
 .link-icons {
     margin-top: 30px;
+}
+
+.link-icons a {
+    margin-right: 25px;
 }
