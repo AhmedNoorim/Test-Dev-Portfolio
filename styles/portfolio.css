@@ -73,9 +73,9 @@ nav a {
 /* header related styles */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -192,4 +192,61 @@ main {
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
+}
+
+/* resume section styles */
+#resume-title {
+    margin-bottom: 130px;
+}
+
+.hr1 {
+    margin: 0px 30px 0px 0px;
+}
+
+.resume-item {
+    margin: 0px 100px 0px 0px;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.item-subtitle {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.item-details {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.btn-resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
 }
